@@ -1,0 +1,12 @@
+<ul>
+    {% for result in resultsList %}
+    <li>
+        <a>{{ result[1] }}</a>
+        <a href={{result[0]}}>
+            <button >
+                <span>Download on SoundCloud</span>
+            </button>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
